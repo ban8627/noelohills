@@ -38,6 +38,13 @@ body {
   overflow-x: hidden;
 }
 
+::selection { background: #1ABC9C; color:#fff;}
+
+::-moz-selection { background: #1ABC9C; color:#fff; }
+
+::-webkit-selection { background: #1ABC9C; color:#fff;}
+
+
 /* 공통클래스 */
 // 내용의 너비
 $innerwidth : 1320px;
